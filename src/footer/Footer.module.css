@@ -1,0 +1,58 @@
+.footerBlock{
+    justify-content: center;
+    background-color: #036280;
+    height: 30vh;
+    padding: 40px 0;
+    text-align: center;
+}
+.footerContainer {
+    border: 1px solid;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    min-height: 10vh;
+    width: 80%;
+}
+.author{
+    color: black;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+.title h2{
+    font-family: Josefin Sans,sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+}
+.footerContacts{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footerItem{
+    border: 1px solid;
+    height: 65px;
+    width: 65px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 6px;
+    margin: 1px;
+
+}
+
+.copyright{
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    grid-gap: 5px;
+    gap: 5px;
+}
+
